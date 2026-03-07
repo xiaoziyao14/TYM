@@ -1,0 +1,9 @@
+{
+  "query": "INSERT INTO calendar_events (title, description, eventDate, eventType, symbol, importance) VALUES ('Microsoft Q2 2026 Earnings Report', 'Microsoft releases Q2 FY2026 financial results. EPS: $4.14 (beat $3.97 expected), Revenue: $81.27B (beat $80.27B expected). Cloud revenue topped $51.5B. Stock fell 7% on Azure growth concerns.', '2026-01-28 21:00:00', 'earnings', 'MSFT', 'high');",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway03.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2iFEgFdrATjKgtV.root --database ajVH3qXXUrYQwri7iw5iij --execute INSERT INTO calendar_events (title, description, eventDate, eventType, symbol, importance) VALUES ('Microsoft Q2 2026 Earnings Report', 'Microsoft releases Q2 FY2026 financial results. EPS: $4.14 (beat $3.97 expected), Revenue: $81.27B (beat $80.27B expected). Cloud revenue topped $51.5B. Stock fell 7% on Azure growth concerns.', '2026-01-28 21:00:00', 'earnings', 'MSFT', 'high');",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 59
+}

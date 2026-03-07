@@ -1,0 +1,60 @@
+{
+  "query": "SELECT id, title, source FROM news_articles ORDER BY id LIMIT 10;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway03.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2iFEgFdrATjKgtV.root --database ajVH3qXXUrYQwri7iw5iij --execute SELECT id, title, source FROM news_articles ORDER BY id LIMIT 10;",
+  "rows": [
+    {
+      "id": "60917",
+      "title": "Microsoft Q2 earnings beat, but stock plummets as investors fret on AI spend, cloud growth - Yahoo Finance",
+      "source": "Yahoo Finance"
+    },
+    {
+      "id": "60918",
+      "title": "Microsoft stock drops 7% on slowing cloud growth, light margin guidance - CNBC",
+      "source": "CNBC"
+    },
+    {
+      "id": "60919",
+      "title": "Apple report drops iPhone 18 bombshell - thestreet.com",
+      "source": "thestreet.com"
+    },
+    {
+      "id": "60920",
+      "title": "Apple Earnings Are Coming – Should You Buy AAPL Stock? - TipRanks",
+      "source": "TipRanks"
+    },
+    {
+      "id": "60921",
+      "title": "Tesla tops estimates for quarter, but wraps up first annual revenue drop on record - CNBC",
+      "source": "CNBC"
+    },
+    {
+      "id": "60922",
+      "title": "Tesla (TSLA) releases Q4 2025 financial results: slight beat on earnings - Electrek",
+      "source": "Electrek"
+    },
+    {
+      "id": "60923",
+      "title": "Why Nvidia stock is on sale - Yahoo Finance",
+      "source": "Yahoo Finance"
+    },
+    {
+      "id": "60924",
+      "title": "Chip stocks rally after bumper earnings and a report of a game-changing China approval for Nvidia - CNBC",
+      "source": "CNBC"
+    },
+    {
+      "id": "60925",
+      "title": "Alphabet: Valuation Risk May Be Overshadowed By Cloud Growth (Earnings Preview) - Seeking Alpha",
+      "source": "Seeking Alpha"
+    },
+    {
+      "id": "60926",
+      "title": "Alphabet just got a major Wall Street upgrade - thestreet.com",
+      "source": "thestreet.com"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\ttitle\tsource\n60917\tMicrosoft Q2 earnings beat, but stock plummets as investors fret on AI spend, cloud growth - Yahoo Finance\tYahoo Finance\n60918\tMicrosoft stock drops 7% on slowing cloud growth, light margin guidance - CNBC\tCNBC\n60919\tApple report drops iPhone 18 bombshell - thestreet.com\tthestreet.com\n60920\tApple Earnings Are Coming – Should You Buy AAPL Stock? - TipRanks\tTipRanks\n60921\tTesla tops estimates for quarter, but wraps up first annual revenue drop on record - CNBC\tCNBC\n60922\tTesla (TSLA) releases Q4 2025 financial results: slight beat on earnings - Electrek\tElectrek\n60923\tWhy Nvidia stock is on sale - Yahoo Finance\tYahoo Finance\n60924\tChip stocks rally after bumper earnings and a report of a game-changing China approval for Nvidia - CNBC\tCNBC\n60925\tAlphabet: Valuation Risk May Be Overshadowed By Cloud Growth (Earnings Preview) - Seeking Alpha\tSeeking Alpha\n60926\tAlphabet just got a major Wall Street upgrade - thestreet.com\tthestreet.com\n",
+  "stderr": "",
+  "execution_time_ms": 57
+}

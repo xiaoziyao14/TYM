@@ -1,0 +1,16 @@
+{
+  "query": "SHOW TABLES LIKE 'watchlist%';",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway03.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2iFEgFdrATjKgtV.root --database ajVH3qXXUrYQwri7iw5iij --execute SHOW TABLES LIKE 'watchlist%';",
+  "rows": [
+    {
+      "Tables_in_ajVH3qXXUrYQwri7iw5iij (watchlist%)": "watchlist_stocks"
+    },
+    {
+      "Tables_in_ajVH3qXXUrYQwri7iw5iij (watchlist%)": "watchlists"
+    }
+  ],
+  "messages": [],
+  "stdout": "Tables_in_ajVH3qXXUrYQwri7iw5iij (watchlist%)\nwatchlist_stocks\nwatchlists\n",
+  "stderr": "",
+  "execution_time_ms": 57
+}

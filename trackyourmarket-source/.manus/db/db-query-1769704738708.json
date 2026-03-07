@@ -1,0 +1,9 @@
+{
+  "query": "INSERT INTO calendar_events (title, description, eventDate, eventType, symbol, importance) VALUES ('Apple Q1 2026 Earnings Report', 'Apple releases Q1 FY2026 financial results. Expected revenue: $138.42 billion, iPhone revenue: $78.3 billion (up 13% YoY). Focus on AI integration progress.', '2026-01-29 21:00:00', 'earnings', 'AAPL', 'high');",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway03.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2iFEgFdrATjKgtV.root --database ajVH3qXXUrYQwri7iw5iij --execute INSERT INTO calendar_events (title, description, eventDate, eventType, symbol, importance) VALUES ('Apple Q1 2026 Earnings Report', 'Apple releases Q1 FY2026 financial results. Expected revenue: $138.42 billion, iPhone revenue: $78.3 billion (up 13% YoY). Focus on AI integration progress.', '2026-01-29 21:00:00', 'earnings', 'AAPL', 'high');",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 62
+}
