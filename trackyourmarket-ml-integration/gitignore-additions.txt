@@ -1,0 +1,37 @@
+# ============================================
+# ML-specific ignores (add to root .gitignore)
+# ============================================
+
+# Large dataset files (keep structure, ignore content)
+ml/data/raw/
+ml/data/silver/*.json
+ml/data/silver/*.csv
+!ml/data/silver/.gitkeep
+ml/data/labeled/*.json
+ml/data/labeled/*.csv
+!ml/data/labeled/.gitkeep
+
+# Model weights and artifacts
+ml/experiments/*/model/
+ml/experiments/*/predictions/
+*.pt
+*.pth
+*.bin
+*.onnx
+*.pkl
+*.joblib
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+ml/venv/
+ml/.venv/
+
+# Jupyter
+.ipynb_checkpoints
